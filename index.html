@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>lawyer</title>
+    <link rel="stylesheet" href="stylice.css" />
+
+    <link rel="stylesheet" href="about-us.css" />
+  </head>
+  <body>
+    <div class="container-fuild">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light position-fixed top-0 w-100 px-1"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="images/logo.png"
+              alt="logo"
+              style="width: 150px"
+              class="ms-3"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-link text-black" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link fw-semibold text-black" href="about-us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold text-black"
+                  href="#"
+                  id="servicesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu mx-3 text-black">
+                  <li>
+                    <a
+                      class="dropdown-item text-black fw-semibold fs-5"
+                      href="managent-service.html"
+                      >Management Service</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-black fw-semibold fs-5"
+                      href="legal-consultant-service.html"
+                      >Legal Consultant Service</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link fw-semibold text-black" href="faq.html"
+                  >FAQs</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link fw-semibold text-black" href="blog.html"
+                  >Our Blogs</a
+                >
+              </li>
+              <li class="nav-item mx-3 text-black">
+                <a class="nav-link fw-semibold" href="contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <a
+              href="contact-us.html"
+              class="btn btn-get-started text-white me-3"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div
+      id="lawCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="5000"
+    >
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div
+          class="carousel-item active"
+          style="background-image: url('images/banner3.webp')"
+        >
+          <div class="carousel-caption">
+            <h1 class="display-5 fw-bold">Straight Talk is Good Business.</h1>
+            <p class="lead">
+              A highly astute divorce lawyer who takes charge of cases and
+              ensures they are moving. I have particular experience in
+              matrimonial finances.
+            </p>
+            <a href="#" class="btn btn-dark-blue px-4 py-2"
+              >Make An Appointment</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div
+          class="carousel-item"
+          style="background-image: url('images/banner2.jpg')"
+        >
+          <div class="carousel-caption">
+            <h1 class="display-5 fw-bold">Expert Legal Guidance</h1>
+            <p class="lead">
+              Committed to protecting your legal rights with professional
+              integrity and passion.
+            </p>
+            <a href="#" class="btn btn-dark-blue px-4 py-2">Explore Services</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#lawCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#lawCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#lawCarousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#lawCarousel"
+          data-bs-slide-to="1"
+        ></button>
+      </div>
+    </div>
+
+    <!-- -------------------------------------second section----------------------------------- -->
+
+    <section class="py-4">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img
+              src="images/banner1.jpg"
+              alt="About Us Image"
+              class="img-fluid rounded"
+            />
+            <!-- Replace the src above with your image path -->
+          </div>
+          <div class="col-md-6">
+            <h2 class="about-title mb-4 heading">About Us</h2>
+            <p class="about-text lh-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium sint voluptatem modi fugit distinctio veritatis
+              impedit, eius rerum dolores a excepturi at quibusdam velit totam
+              iure doloremque voluptas assumenda. Assumenda?
+            </p>
+            <p class="about-text lh-lg">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, id
+              repellendus? Doloribus sequi corrupti eos impedit vitae accusamus
+              laudantium nesciunt perspiciatis atque, reiciendis, voluptate
+              repellat.
+            </p>
+            <a href="about-us.html" class="btn btn-custom mt-2 fs-5"
+              >View More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------section three----------------------------------- -->
+
+    <section class="third">
+      <div class="container practice-area">
+        <h2 class="heading">Our Practice Area</h2>
+        <p class="mb-5 text-secondary">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+          molestias aliquam voluptates ipsa sit ullam quo nihil magnam quos,
+          quaerat, reprehenderit quidem architecto mollitia tempora saepe totam
+          delectus quia corrupti.
+        </p>
+
+        <div class="row g-4 justify-content-center">
+          <!-- Criminal Law -->
+          <div class="col-md-3 col-sm-6">
+            <div class="practice-card">
+              <img src="images/balance.png" alt="Criminal Law Icon" />
+              <div class="practice-title">Criminal Law</div>
+            </div>
+          </div>
+          <!-- Injury Compensation -->
+          <div class="col-md-3 col-sm-6">
+            <div class="practice-card">
+              <img src="images/balance.png" alt="Injury Compensation Icon" />
+              <div class="practice-title">Injury Compensation</div>
+            </div>
+          </div>
+          <!-- Wills & Estates (Highlighted) -->
+          <div class="col-md-3 col-sm-6">
+            <div class="practice-card active">
+              <img src="images/balance.png" alt="Wills & Estates Icon" />
+              <div class="practice-title">Wills & Estates</div>
+            </div>
+          </div>
+          <!-- Commercial Litigation -->
+          <div class="col-md-3 col-sm-6">
+            <div class="practice-card">
+              <img src="images/balance.png" alt="Commercial Litigation Icon" />
+              <div class="practice-title">Commercial Litigation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------section four----------------------------------- -->
+
+    <section>
+      <div class="container practice-area">
+        <h2 class="heading">Our Practice Area</h2>
+        <p class="service-text lh-lg">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+          molestias aliquam voluptates ipsa sit ullam quo nihil magnam quos,
+          quaerat, reprehenderit quidem architecto mollitia tempora saepe totam
+          delectus quia corrupti.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row g-4">
+          <!-- Management Services -->
+          <div class="col-md-6 mb-5 col-sm-12">
+            <div class="card border-1 card">
+              <img
+                src="images/side-1.jpg"
+                class="card-img-top"
+                alt="Management Services"
+              />
+              <div class="card-body">
+                <h2 class="service-title">Management Services</h2>
+                <p class="service-text lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                  odio adipisci deleniti impedit eius? Quos repellendus dolorum
+                  amet nulla similique quod possimus rerum dolor error
+                  voluptatibus. Sapiente sint dolores laboriosam?
+                </p>
+                <a href="managent-service.html" class="btn btn-custom mt-2 fs-4"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Legal Consultant Services -->
+          <div class="col-md-6 mb-5 col-sm-12">
+            <div class="card border-1 card">
+              <img
+                src="images/side-2.jpg"
+                class="card-img-top"
+                alt="Legal Consultant Services"
+              />
+              <div class="card-body">
+                <h2 class="service-title">Legal Consultant Services</h2>
+                <p class="service-text lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                  odio adipisci deleniti impedit eius? Quos repellendus dolorum
+                  amet nulla similique quod possimus rerum dolor error
+                  voluptatibus. Sapiente sint dolores laboriosam?
+                </p>
+                <a href="managent-service.html" class="btn btn-custom mt-2 fs-4"
+                  >See More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------section five----------------------------------- -->
+
+    <section>
+      <div class="cta-section">
+        <h2 class="text-white heading">Ready to Protect Your Legal Rights?</h2>
+        <p>
+          Don't navigate legal challenges alone. Whether you need expert advice,
+          strong courtroom representation,<br />
+          or support in drafting legal documents — we're here to help.
+        </p>
+        <div class="cta-buttons d-flex justify-content-center flex-wrap">
+          <a href="#" class="btn btn-outline-light bg-white tele mb-3">
+            <i class="fa-brands fa-telegram"></i>Request Consultation
+          </a>
+          <a href="#" class="btn btn-success mb-3">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------section six---------------------- -->
+    <section>
+      <div class="container py-5">
+        <div class="text-center mb-4 lh-lg">
+          <h2 class="heading">What Our Clients Say</h2>
+          <p class="px-3 text-center py-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            impedit veniam ullam magni nisi quod reprehenderit repellendus nemo
+            eaque illo facere optio harum blanditiis consequuntur dolor
+            distinctio libero esse! Modi.
+          </p>
+        </div>
+
+        <div class="row g-4 my-3">
+          <!-- Testimonial 1 -->
+          <div class="col-md-6">
+            <div class="testimonial-card">
+              <p class="lh-lg">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                veniam explicabo voluptates nostrum est alias natus nihil
+                sapiente hic cumque itaque autem neque unde corporis quas,
+                incidunt sunt optio iure?"
+              </p>
+              <div class="d-flex align-items-center mt-4">
+                <div class="client-img">
+                  <img
+                    src="images/user.png"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                </div>
+                <div>
+                  <h6 class="mb-0 fw-bold">Anjali Kapoor</h6>
+                  <small class="text-muted">Homemaker & Investor</small>
+                </div>
+                <div class="ms-auto testimonial-icon">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="col-md-6">
+            <div class="testimonial-card">
+              <p class="lh-lg">
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+                saepe cum, nisi quae molestias voluptas nobis soluta recusandae,
+                similique minima optio praesentium! Illo quis corrupti fuga
+                dicta necessitatibus quam."
+              </p>
+              <div class="d-flex align-items-center mt-4">
+                <div class="client-img">
+                  <img
+                    src="images/user.png"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                </div>
+                <div>
+                  <h6 class="mb-0 fw-bold">Sunil Agarwal</h6>
+                  <small class="text-muted">Chartered Accountant</small>
+                </div>
+                <div class="ms-auto testimonial-icon">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------------------------footer----------------------------------- -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Column 1: Logo & Social -->
+          <div class="col-md-3 mb-4">
+            <div class="footer-logo">
+              <img src="images/logo.png" alt="footer_logo" class="w-50" />
+            </div>
+            <p class="mt-3 text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Adipisci, aut nostrum sapiente, obcaecati illo ad eius temporibus
+              quisquam quibusdam aliquid praesentium rerum officiis.
+            </p>
+            <div class="social-icons mt-3">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <h6 class="footer-heading">Quick Links :</h6>
+            <ul class="list-unstyled mt-3">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <h6 class="footer-heading">Services :</h6>
+            <ul class="list-unstyled mt-3">
+              <li><a href="#">Service One</a></li>
+              <li><a href="#">Service Two</a></li>
+              <li><a href="#">Service Three</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <h6 class="footer-heading">Contact :</h6>
+            <ul class="list-unstyled mt-3 text-muted">
+              <li>
+                <i class="fas fa-map-marker-alt me-2 text-primary"></i> Gali No
+                25 Nangloi<br />
+                Najafgarh Road 110043
+              </li>
+              <li class="mt-2">
+                <i class="fas fa-envelope me-2 text-primary"></i>
+                kunalbisht841@gmail.com
+              </li>
+              <li class="mt-2">
+                <i class="fas fa-phone me-2 text-primary"></i> +91 4561237810
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2023 LEGAL COUNSULTING. All Rights Reserved
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

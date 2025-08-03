@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+nav {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.navbar-brand span {
+  font-size: 0.6rem;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+.navbar-nav{
+  color: #000;
+}
+.btn-get-started {
+  background-color: navy;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 3px;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+.collapse .nav-item  {
+  font-size: 19px;
+  font-weight: 500;
+  color: #000;
+}
+
+.link {
+  color: #000;
+}
+.btn-get-started:hover {
+  background-color: #00003a;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+  bottom: 30%;
+  z-index: 10;
+}
+
+.btn-dark-blue {
+  background-color: #000b5e;
+  color: white;
+}
+
+.btn-dark-blue:hover {
+  background-color: #000948;
+}
+
+.about-title {
+  color: #00004d;
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: #00004d;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  background-color: #00003a;
+  color: white;
+}
+
+/* -------------------------------------srction3------------------------------------- */
+
+.third {
+  background-color: #f0f8ff; /* light blue background */
+}
+.practice-area {
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 30px;
+}
+.practice-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 40px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.practice-card.active {
+  background-color: #03045e;
+  color: #fff;
+  border: none;
+}
+.practice-card img {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 20px;
+}
+.practice-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.practice-card:hover {
+  background-color: #03045e;
+}
+
+.heading {
+  font-weight: bold;
+  color: #00004d;
+  font-size: 3em;
+}
+/* ------------------------------section4---------------------------- */
+.service-title {
+  color: #03045e;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.service-text {
+  color: #333;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+.card-body {
+  background-color: #f5f5f5;
+  padding: 25px;
+}
+
+/* ----------------------------------------section5----------------------------------- */
+
+.cta-section {
+  margin-block: 50px;
+  background-color: #00044a;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-section h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  color: #d1d1e0;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.cta-buttons .btn {
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.btn-outline-light i,
+.btn-success i {
+  margin-right: 8px;
+}
+.cta-buttons i {
+  font-size: 22px;
+}
+.tele {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ---------------------------------------section6----------------------------------- */
+
+.testimonial-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 40px 20px;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+.testimonial-icon {
+  font-size: 3rem;
+  color: #0d0c5c;
+}
+.client-img {
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* ------------------------------------------footer----------------------------------- */
+
+.footer {
+  background-color: #f2f8fc;
+  padding: 60px 0px 0px 0px;
+}
+.footer-logo {
+  font-weight: 700;
+  font-size: 28px;
+}
+.footer-logo span {
+  font-size: 10px;
+  vertical-align: super;
+}
+.footer a {
+  color: #000;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #0d0c5c;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 8px;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  opacity: 0.8;
+}
+.footer-bottom {
+  background-color: #0d0c5c;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.footer ul li {
+  margin-block: 15px;
+  font-size: 18px;
+}
+.footer ul li a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.1s;
+}
+.footer ul li a:hover {
+  color: #00004d;
+  text-decoration: underline;
+}
+.footer-heading {
+  font-weight: 600;
+  color: #00004d;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.practice-card img {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.practice-card:hover img {
+  transform: scale(1.1);
+}
+.about-text {
+  color: #000;
+  font-size: 18px;
+}
+.service-text {
+  color: #000;
+  font-size: 18px;
+}
+.lh-lg {
+  line-height: 1.8;
+}
+.card {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* ----------------------------------------about---------------------------- */
+
+.box{
+  border: 1px solid rgb(177, 174, 174);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, .5)
+}
+.accordion h2{
+  font-size: 100x;
+}

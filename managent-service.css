@@ -1,0 +1,19 @@
+.legal-section {
+  padding: 20px;
+}
+.btn-dark-blue {
+  background-color: #001a57;
+  color: white;
+}
+.btn-dark-blue:hover {
+  background-color: #001140;
+}
+.legal-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.color-box {
+  border-radius: 10px;
+  padding: 20px;
+}
